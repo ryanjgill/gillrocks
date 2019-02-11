@@ -147,7 +147,9 @@ div.typer /deep/ {
     }
   }
 
-  .typer {
+  div.typer {
+    font-size: 3em;
+    
     hr {
       display: none;
     }

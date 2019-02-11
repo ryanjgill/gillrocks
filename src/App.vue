@@ -108,6 +108,10 @@ export default {
 </script>
 
 <style lang="scss">
+body {
+  overflow-x: hidden;
+}
+
 .toolbar a.v-btn {
   margin: 0;
   min-width: 44px;
@@ -116,7 +120,8 @@ export default {
 @media screen and (max-width: 450px) {
   .toolbar a.v-btn {
     margin: 0;
-    max-width: 36px;
+    min-width: 12px;
+    width: 12px;
   }
 }
 </style>

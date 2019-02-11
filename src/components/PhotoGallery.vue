@@ -9,7 +9,8 @@
         :key="imageIndex"
         aspect-ratio="1.777"
         class="grey lighten-2 ma-1"
-        :min-width="300"
+        :width="300"
+        :min-width="250"
         :max-width="500"
         @click="index = imageIndex"
       >
